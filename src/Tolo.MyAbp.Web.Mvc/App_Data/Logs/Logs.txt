@@ -1,0 +1,1128 @@
+DEBUG 2019-03-18 11:20:03,438 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-18 11:20:03,462 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-03-18 11:20:03,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.Web.Startup.MyAbpWebMvcModule, Tolo.MyAbp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpWebCoreModule, Tolo.MyAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpApplicationModule, Tolo.MyAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpCoreModule, Tolo.MyAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,482 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,482 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.EntityFrameworkCore.MyAbpEntityFrameworkModule, Tolo.MyAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,482 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,482 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:03,486 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-03-18 11:20:03,535 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 11:20:03,536 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 11:20:03,536 [1    ] o.Configuration.LanguageManagementConfig - Converted MyAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 11:20:03,536 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 11:20:03,763 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Tolo.MyAbp.EntityFrameworkCore.MyAbpDbContext, Tolo.MyAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 11:20:04,126 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-18 11:20:04,197 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-18 11:20:04,235 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-18 11:20:04,254 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyAbp
+DEBUG 2019-03-18 11:20:04,279 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-18 11:20:04,312 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-18 11:20:04,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2019-03-18 11:20:04,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-18 11:20:04,356 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-18 11:20:04,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Users.Dto.UserDto
+DEBUG 2019-03-18 11:20:04,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-18 11:20:04,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-18 11:20:04,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-18 11:20:04,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-18 11:20:04,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-18 11:20:04,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-18 11:20:04,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.MultiTenancy.Dto.TenantDto
+DEBUG 2019-03-18 11:20:04,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-03-18 11:20:04,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-03-18 11:20:08,230 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-18 11:20:08,353 [11   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 11:20:09,618 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc)
+WARN  2019-03-18 11:20:09,791 [11   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2019-03-18 11:20:09,793 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2019-03-18 11:20:09,802 [11   ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2019-03-18 11:20:09,820 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2019-03-18 11:20:09,823 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc) in 201.2525ms
+INFO  2019-03-18 11:20:09,873 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1646.8565ms 302 
+INFO  2019-03-18 11:20:09,875 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2019-03-18 11:20:09,878 [11   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 11:20:09,904 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 11:20:11,174 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2019-03-18 11:20:11,181 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.6747ms.
+INFO  2019-03-18 11:20:11,293 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-03-18 11:20:11,815 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 558.7667ms.
+INFO  2019-03-18 11:20:11,819 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc) in 1915.7678ms
+INFO  2019-03-18 11:20:11,829 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2019-03-18 11:20:11,833 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2019-03-18 11:20:11,833 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+INFO  2019-03-18 11:20:11,835 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2019-03-18 11:20:11,839 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+INFO  2019-03-18 11:20:11,840 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1965.6696ms 200 text/html; charset=utf-8
+INFO  2019-03-18 11:20:11,842 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2019-03-18 11:20:11,871 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2019-03-18 11:20:11,871 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.8506ms 200 text/css
+INFO  2019-03-18 11:20:11,871 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2019-03-18 11:20:11,871 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.3912ms 200 text/css
+INFO  2019-03-18 11:20:11,871 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2019-03-18 11:20:11,871 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2019-03-18 11:20:11,871 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.7092ms 200 text/css
+INFO  2019-03-18 11:20:11,871 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.5785ms 200 text/css
+INFO  2019-03-18 11:20:11,871 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2019-03-18 11:20:11,872 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.7659ms 200 text/css
+INFO  2019-03-18 11:20:11,881 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2019-03-18 11:20:11,883 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\Waves\dist\waves.css'
+INFO  2019-03-18 11:20:11,883 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.3073ms 200 text/css
+INFO  2019-03-18 11:20:11,885 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2019-03-18 11:20:11,885 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2019-03-18 11:20:11,886 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\css\materialize.css'
+INFO  2019-03-18 11:20:11,886 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1477ms 200 text/css
+INFO  2019-03-18 11:20:11,888 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2019-03-18 11:20:11,889 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2019-03-18 11:20:11,890 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2019-03-18 11:20:11,890 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.0027ms 200 text/css
+INFO  2019-03-18 11:20:11,891 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2019-03-18 11:20:11,891 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\animate.css\animate.css'
+INFO  2019-03-18 11:20:11,891 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.8175ms 200 text/css
+INFO  2019-03-18 11:20:11,891 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.8844ms 200 text/css
+INFO  2019-03-18 11:20:11,891 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=j_16MTiQNlUrKdjTrCjLCSGkIIjHvt8tFUyucW02Vqw  
+INFO  2019-03-18 11:20:11,892 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+INFO  2019-03-18 11:20:11,892 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1819ms 200 text/css
+INFO  2019-03-18 11:20:11,894 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\css\style.css'
+INFO  2019-03-18 11:20:11,894 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.5614ms 200 text/css
+INFO  2019-03-18 11:20:11,896 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2019-03-18 11:20:11,896 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+INFO  2019-03-18 11:20:11,898 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2019-03-18 11:20:11,898 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3989ms 200 application/javascript
+INFO  2019-03-18 11:20:11,898 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2019-03-18 11:20:11,898 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2019-03-18 11:20:11,898 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.7988ms 200 application/javascript
+INFO  2019-03-18 11:20:11,898 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2019-03-18 11:20:11,900 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2019-03-18 11:20:11,900 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.031ms 200 application/javascript
+INFO  2019-03-18 11:20:11,901 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2019-03-18 11:20:11,902 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.2559ms 200 application/javascript
+INFO  2019-03-18 11:20:11,906 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2019-03-18 11:20:11,908 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2019-03-18 11:20:11,908 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.0472ms 200 application/javascript
+INFO  2019-03-18 11:20:11,910 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2019-03-18 11:20:11,912 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2019-03-18 11:20:11,912 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3431ms 200 application/javascript
+INFO  2019-03-18 11:20:11,913 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2019-03-18 11:20:11,914 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+INFO  2019-03-18 11:20:11,915 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.1286ms 200 application/javascript
+INFO  2019-03-18 11:20:11,925 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2019-03-18 11:20:11,925 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2019-03-18 11:20:11,925 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2019-03-18 11:20:11,926 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+INFO  2019-03-18 11:20:11,926 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2019-03-18 11:20:11,926 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0118ms 200 application/javascript
+INFO  2019-03-18 11:20:11,926 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2019-03-18 11:20:11,926 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9925ms 200 application/javascript
+INFO  2019-03-18 11:20:11,926 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.min.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert.min.js'
+INFO  2019-03-18 11:20:11,927 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.7962ms 200 application/javascript
+INFO  2019-03-18 11:20:11,927 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\Waves\dist\waves.js'
+INFO  2019-03-18 11:20:11,927 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9841ms 200 application/javascript
+INFO  2019-03-18 11:20:11,933 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=lMgLZMlGsipWDxpvEPxfKVREzRedV_ygRnTj2kvADpw  
+INFO  2019-03-18 11:20:11,935 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=FGfi3RfHf06ftjVdq2JaO16cF9CPZNPvujmuYBacXxg  
+INFO  2019-03-18 11:20:11,936 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2019-03-18 11:20:11,936 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2019-03-18 11:20:11,936 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.8787ms 200 application/javascript
+INFO  2019-03-18 11:20:11,937 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2019-03-18 11:20:11,937 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2019-03-18 11:20:11,937 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.8199ms 200 application/javascript
+INFO  2019-03-18 11:20:11,937 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0691ms 200 application/javascript
+INFO  2019-03-18 11:20:11,937 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2019-03-18 11:20:11,938 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2019-03-18 11:20:11,938 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9356ms 200 application/javascript
+INFO  2019-03-18 11:20:11,947 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=DaBt2oqnTq48gvSpZpiInWH-47jRpSJPcZh3o5NZjIY  
+INFO  2019-03-18 11:20:11,947 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636885048043141886  
+INFO  2019-03-18 11:20:11,948 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\js\main.js'
+INFO  2019-03-18 11:20:11,948 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2019-03-18 11:20:11,948 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.7179ms 200 application/javascript
+INFO  2019-03-18 11:20:11,949 [7    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 11:20:11,949 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=_sUixSUZcmP81slFpHh9ygZ5nNihdHlHLkpoSCncHCw  
+INFO  2019-03-18 11:20:11,949 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=guLvtVJMvLobKpGAlQigrGWMQ1sGQo4yTL46zjGQUUY  
+INFO  2019-03-18 11:20:11,949 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2019-03-18 11:20:11,949 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\js\admin.js'
+INFO  2019-03-18 11:20:11,950 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2019-03-18 11:20:11,950 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9533ms 200 application/javascript
+INFO  2019-03-18 11:20:11,950 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9696ms 200 application/javascript
+INFO  2019-03-18 11:20:11,950 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3174ms 200 application/javascript
+INFO  2019-03-18 11:20:11,955 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636885048043141886  
+INFO  2019-03-18 11:20:11,957 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 11:20:11,958 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636885048117976932  
+INFO  2019-03-18 11:20:11,959 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+INFO  2019-03-18 11:20:11,959 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-03-18 11:20:11,960 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.8846ms 200 application/javascript
+INFO  2019-03-18 11:20:11,960 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2019-03-18 11:20:11,960 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1153ms 200 application/javascript
+INFO  2019-03-18 11:20:11,970 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2019-03-18 11:20:11,972 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\fonts\roboto\CWB0XYA8bzo0kSThX0UTuA.woff2'
+INFO  2019-03-18 11:20:11,972 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2019-03-18 11:20:11,972 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.2356ms 200 font/woff2
+INFO  2019-03-18 11:20:11,973 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2019-03-18 11:20:11,973 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff2  
+INFO  2019-03-18 11:20:11,975 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2019-03-18 11:20:11,975 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\fonts\roboto\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'
+INFO  2019-03-18 11:20:11,975 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.2439ms 200 image/png
+INFO  2019-03-18 11:20:11,976 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.woff2'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\fonts\material-icons\materialicons.woff2'
+INFO  2019-03-18 11:20:11,976 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.4266ms 200 font/woff2
+INFO  2019-03-18 11:20:11,976 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.5679ms 200 font/woff2
+INFO  2019-03-18 11:20:11,977 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-18 11:20:11,979 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-18 11:20:11,986 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-18 11:20:12,011 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-18 11:20:12,107 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 120.8021ms.
+INFO  2019-03-18 11:20:12,111 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-18 11:20:12,116 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 138.9157ms
+INFO  2019-03-18 11:20:12,116 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 161.374ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-18 11:20:12,143 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 131.9138ms.
+INFO  2019-03-18 11:20:12,144 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-18 11:20:12,144 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 162.5146ms
+INFO  2019-03-18 11:20:12,144 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 197.1759ms 200 application/x-javascript
+INFO  2019-03-18 11:20:13,998 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2019-03-18 11:20:13,999 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 11:20:14,006 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 11:20:14,082 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc) with arguments (Tolo.MyAbp.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+INFO  2019-03-18 11:20:14,601 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-03-18 11:20:14,604 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult in 522.1691ms.
+INFO  2019-03-18 11:20:14,614 [13   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-03-18 11:20:14,621 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc) in 615.2608ms
+INFO  2019-03-18 11:20:14,621 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 623.1883ms 200 application/json; charset=utf-8
+INFO  2019-03-18 11:20:14,633 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-18 11:20:14,662 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 11:20:14,689 [6    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-03-18 11:20:14,691 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc) - Validation state: Valid
+INFO  2019-03-18 11:20:14,692 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3256ms.
+INFO  2019-03-18 11:20:14,699 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-18 11:20:15,101 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 403.7487ms.
+INFO  2019-03-18 11:20:15,105 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc) in 442.5143ms
+INFO  2019-03-18 11:20:15,105 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 471.8566ms 200 text/html; charset=utf-8
+INFO  2019-03-18 11:20:15,109 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css?v=a7N4Jki3LzSbThclvqbu4nF45twcjuc772JGFhY9qwk  
+INFO  2019-03-18 11:20:15,110 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.css?v=szHusaozbQctTn4FX-3l5E0A5zoxz7-ne4fr8NgWJlw  
+INFO  2019-03-18 11:20:15,110 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/themes/all-themes.css?v=XaAlkmhL9gA6mBxpcxGYAWxggxkIpRmT9qGbKejs6eA  
+INFO  2019-03-18 11:20:15,111 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=uq7unI_U0xZr0Pbyzeu6KfbJKHVFuv0wNJ4CrrhQknw  
+INFO  2019-03-18 11:20:15,111 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\bootstrap-select\dist\css\bootstrap-select.css'
+INFO  2019-03-18 11:20:15,111 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/js/bootstrap-select.js?v=_KDPX2Vvqq8sySMxlLNJxt9j6Cmb8i_xp602ozhYxzI  
+INFO  2019-03-18 11:20:15,111 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/themes/all-themes.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\css\themes\all-themes.css'
+INFO  2019-03-18 11:20:15,111 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user.png  
+INFO  2019-03-18 11:20:15,112 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\morris.js\morris.css'
+INFO  2019-03-18 11:20:15,111 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2886ms 200 text/css
+INFO  2019-03-18 11:20:15,112 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4991ms 200 text/css
+INFO  2019-03-18 11:20:15,111 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.6373ms 200 text/css
+INFO  2019-03-18 11:20:15,113 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/js/bootstrap-select.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\bootstrap-select\dist\js\bootstrap-select.js'
+INFO  2019-03-18 11:20:15,113 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4144ms 200 application/javascript
+INFO  2019-03-18 11:20:15,114 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2019-03-18 11:20:15,114 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.9631ms 200 text/css
+INFO  2019-03-18 11:20:15,115 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user.png'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\images\user.png'
+INFO  2019-03-18 11:20:15,115 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.5183ms 200 image/png
+INFO  2019-03-18 11:20:15,132 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/push.js/push.js?v=HDxbpm8oBKwe1bmX9Z1SahYYA7zEbc1dk7LfopvOvoE  
+INFO  2019-03-18 11:20:15,133 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-slimscroll/jquery.slimscroll.js?v=4K6ZHzwMYR5_eU2SeDIaByus_qki9IFY8hmxl5U6D1Y  
+INFO  2019-03-18 11:20:15,133 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.js?v=jOYc7_5N1zFKt3qTihQ-9Kc0wjSMXkAeHUXNyvn8sYo  
+INFO  2019-03-18 11:20:15,134 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/push.js/push.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\push.js\push.js'
+INFO  2019-03-18 11:20:15,134 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.js'
+INFO  2019-03-18 11:20:15,134 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.1108ms 200 application/javascript
+INFO  2019-03-18 11:20:15,135 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9979ms 200 application/javascript
+INFO  2019-03-18 11:20:15,135 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-slimscroll/jquery.slimscroll.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\jquery-slimscroll\jquery.slimscroll.js'
+INFO  2019-03-18 11:20:15,135 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.5883ms 200 application/javascript
+INFO  2019-03-18 11:20:15,136 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636885048043141886  
+INFO  2019-03-18 11:20:15,136 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636885048043141886  
+INFO  2019-03-18 11:20:15,138 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js?v=DeOex_tR7FzkV208FN2wnFJvIUIKXWsVjbW0171naJo  
+INFO  2019-03-18 11:20:15,139 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/signalr-client/signalr.min.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\signalr-client\signalr.min.js'
+INFO  2019-03-18 11:20:15,140 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1449ms 200 application/javascript
+INFO  2019-03-18 11:20:15,143 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-18 11:20:15,145 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-18 11:20:15,145 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-18 11:20:15,147 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-18 11:20:15,147 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/raphael/raphael.js?v=MPXjTSEImVJI1834JAHubdK7Lts1VTUPJmCQ9zKAjyA  
+INFO  2019-03-18 11:20:15,147 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-countTo/jquery.countTo.js?v=AGGYFLOyVnIKn_2UCDl9D_5VWf8wHWCOtm9YU0P9g6I  
+INFO  2019-03-18 11:20:15,148 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-countTo/jquery.countTo.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\jquery-countTo\jquery.countTo.js'
+INFO  2019-03-18 11:20:15,148 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9982ms 200 application/javascript
+INFO  2019-03-18 11:20:15,150 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 5.4161ms.
+INFO  2019-03-18 11:20:15,150 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-18 11:20:15,150 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 7.1864ms
+INFO  2019-03-18 11:20:15,151 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.7744ms 200 application/x-javascript
+INFO  2019-03-18 11:20:15,152 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/raphael/raphael.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\raphael\raphael.js'
+INFO  2019-03-18 11:20:15,152 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.8695ms 200 application/javascript
+INFO  2019-03-18 11:20:15,156 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=8bQpuR0dFdbi0KIM9VVSonDAxoXNRsdDAvuSZSI8Oyw  
+INFO  2019-03-18 11:20:15,157 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.js?v=cQB75DEaDbn4oSiaWgdoh3TuZCHSO-kYdD_Ehka48Ro  
+INFO  2019-03-18 11:20:15,159 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\morris.js\morris.js'
+INFO  2019-03-18 11:20:15,159 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.136ms 200 application/javascript
+INFO  2019-03-18 11:20:15,162 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/chart.js/dist/Chart.bundle.js?v=TQAtDUIU_0XtXZLNjMBV8noK8jNSngwHlgtC_PvsRAk  
+INFO  2019-03-18 11:20:15,164 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2019-03-18 11:20:15,164 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.1869ms 200 application/javascript
+INFO  2019-03-18 11:20:15,165 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/chart.js/dist/Chart.bundle.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\chart.js\dist\Chart.bundle.js'
+INFO  2019-03-18 11:20:15,165 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.721ms 200 application/javascript
+INFO  2019-03-18 11:20:15,167 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.js?v=t7kx8nPDixJ3ucbB9OBcTsCYhaSHvdrzJ54tfkmjjhI  
+INFO  2019-03-18 11:20:15,169 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\Flot\jquery.flot.js'
+INFO  2019-03-18 11:20:15,170 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9759ms 200 application/javascript
+INFO  2019-03-18 11:20:15,175 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+INFO  2019-03-18 11:20:15,175 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.resize.js?v=i59RRvMkqw-28mDu6YRzKo77gmM7k9aPZMtcw45wgu4  
+INFO  2019-03-18 11:20:15,177 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.resize.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\Flot\jquery.flot.resize.js'
+INFO  2019-03-18 11:20:15,177 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.6323ms 200 application/javascript
+INFO  2019-03-18 11:20:15,180 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2019-03-18 11:20:15,181 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.05ms 200 font/woff2
+INFO  2019-03-18 11:20:15,184 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.pie.js?v=RsEWYd9gdLG1bCIcU8j59Rkvf_1O7HtzoD1TRUs22cU  
+INFO  2019-03-18 11:20:15,186 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.pie.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\Flot\jquery.flot.pie.js'
+INFO  2019-03-18 11:20:15,186 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2715ms 200 application/javascript
+INFO  2019-03-18 11:20:15,187 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.categories.js?v=boFmSyjqeVxzSQb0qhVhRkCnWsf705mn-5CEBAaYNRo  
+INFO  2019-03-18 11:20:15,188 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.categories.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\Flot\jquery.flot.categories.js'
+INFO  2019-03-18 11:20:15,188 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.6585ms 200 application/javascript
+INFO  2019-03-18 11:20:15,198 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.time.js?v=pYLIMq3HE4prBar2HxbrrCdHAfG-Sv6nfnOaHDS5xBo  
+INFO  2019-03-18 11:20:15,199 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.time.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\Flot\jquery.flot.time.js'
+INFO  2019-03-18 11:20:15,199 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2726ms 200 application/javascript
+INFO  2019-03-18 11:20:15,199 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-sparkline/dist/jquery.sparkline.js?v=k0LZZpXY4vJp6vbA5CL5bb20Ou0IO3Shz-J6U6Vq56c  
+INFO  2019-03-18 11:20:15,199 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=tRGDdqeVjO63iaO1qvGPpKF2NuT2riEOyYovlY_otk0  
+INFO  2019-03-18 11:20:15,201 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2019-03-18 11:20:15,201 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user-img-background.jpg  
+INFO  2019-03-18 11:20:15,201 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9715ms 200 application/javascript
+INFO  2019-03-18 11:20:15,201 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-sparkline/dist/jquery.sparkline.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\lib\jquery-sparkline\dist\jquery.sparkline.js'
+INFO  2019-03-18 11:20:15,202 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.6282ms 200 application/javascript
+INFO  2019-03-18 11:20:15,203 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user-img-background.jpg'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\images\user-img-background.jpg'
+INFO  2019-03-18 11:20:15,203 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9392ms 200 image/jpeg
+INFO  2019-03-18 11:20:15,205 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 57.9385ms.
+INFO  2019-03-18 11:20:15,205 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-18 11:20:15,205 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 60.1462ms
+INFO  2019-03-18 11:20:15,205 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.6186ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-18 11:20:15,310 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-03-18 11:20:15,353 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.8191ms 200 application/json
+INFO  2019-03-18 11:20:15,365 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=8wq2OSBIUJPfxuwukuP14A  
+INFO  2019-03-18 11:20:15,516 [10   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-03-18 11:20:15,545 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"8wq2OSBIUJPfxuwukuP14A","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-03-18T11:20:15.5384564+08:00","Properties":{}}
+DEBUG 2019-03-18 11:20:15,586 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 8wq2OSBIUJPfxuwukuP14A
+INFO  2019-03-18 11:20:17,591 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Tenants  
+INFO  2019-03-18 11:20:17,597 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Tenants", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.TenantsController.Index (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 11:20:17,598 [6    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-03-18 11:20:17,704 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.TenantsController.Index (Tolo.MyAbp.Web.Mvc) - Validation state: Valid
+INFO  2019-03-18 11:20:17,794 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.TenantsController.Index (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 90.4128ms.
+INFO  2019-03-18 11:20:17,800 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-18 11:20:17,842 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 43.5441ms.
+INFO  2019-03-18 11:20:17,842 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.TenantsController.Index (Tolo.MyAbp.Web.Mvc) in 244.6901ms
+INFO  2019-03-18 11:20:17,842 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 251.5589ms 200 text/html; charset=utf-8
+INFO  2019-03-18 11:20:17,860 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636885048043141886  
+INFO  2019-03-18 11:20:17,860 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636885048043141886  
+INFO  2019-03-18 11:20:17,867 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-18 11:20:17,867 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-18 11:20:17,868 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-18 11:20:17,868 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-18 11:20:17,873 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 5.2952ms.
+INFO  2019-03-18 11:20:17,873 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-18 11:20:17,874 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 6.7682ms
+INFO  2019-03-18 11:20:17,874 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.7183ms 200 application/x-javascript
+INFO  2019-03-18 11:20:17,876 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Tenants/Index.js?v=piuK1tw684jW2CAGml_YoZ1bf8QiiblJ03XNUWRz7Qw  
+INFO  2019-03-18 11:20:17,879 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Tenants/Index.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\view-resources\Views\Tenants\Index.js'
+INFO  2019-03-18 11:20:17,879 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.1892ms 200 application/javascript
+DEBUG 2019-03-18 11:20:17,899 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 8wq2OSBIUJPfxuwukuP14A
+INFO  2019-03-18 11:20:17,903 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 34.9929ms.
+INFO  2019-03-18 11:20:17,903 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-18 11:20:17,903 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 36.4431ms
+INFO  2019-03-18 11:20:17,903 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.3222ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-18 11:20:17,912 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2546.7017ms 101 
+INFO  2019-03-18 11:20:17,937 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-03-18 11:20:17,941 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.9149ms 200 application/json
+INFO  2019-03-18 11:20:17,946 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=zDILE487CJVUGFcwpE8-nw  
+INFO  2019-03-18 11:20:17,964 [7    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-03-18 11:20:17,968 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"zDILE487CJVUGFcwpE8-nw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-03-18T11:20:17.9649116+08:00","Properties":{}}
+DEBUG 2019-03-18 11:20:17,968 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: zDILE487CJVUGFcwpE8-nw
+INFO  2019-03-18 11:20:19,516 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2019-03-18 11:20:19,522 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.UsersController.Index (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 11:20:19,522 [9    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-03-18 11:20:19,618 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.UsersController.Index (Tolo.MyAbp.Web.Mvc) - Validation state: Valid
+INFO  2019-03-18 11:20:19,819 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.UsersController.Index (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 201.1819ms.
+INFO  2019-03-18 11:20:19,825 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-18 11:20:19,879 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 55.8215ms.
+INFO  2019-03-18 11:20:19,879 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.UsersController.Index (Tolo.MyAbp.Web.Mvc) in 356.5339ms
+INFO  2019-03-18 11:20:19,879 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 363.2641ms 200 text/html; charset=utf-8
+DEBUG 2019-03-18 11:20:19,885 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: zDILE487CJVUGFcwpE8-nw
+INFO  2019-03-18 11:20:19,885 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1938.9971ms 101 
+INFO  2019-03-18 11:20:19,897 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636885048043141886  
+INFO  2019-03-18 11:20:19,897 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636885048043141886  
+INFO  2019-03-18 11:20:19,902 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-18 11:20:19,902 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-18 11:20:19,902 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-18 11:20:19,902 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-18 11:20:19,907 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 4.0605ms.
+INFO  2019-03-18 11:20:19,907 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-18 11:20:19,907 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.4571ms
+INFO  2019-03-18 11:20:19,907 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.5136ms 200 application/x-javascript
+INFO  2019-03-18 11:20:19,912 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/Index.js?v=oQtmOudbl7T_HceFiU9PZCMkoGAHbsjp5D7PMy_e-6M  
+INFO  2019-03-18 11:20:19,913 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Users/Index.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\view-resources\Views\Users\Index.js'
+INFO  2019-03-18 11:20:19,913 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1975ms 200 application/javascript
+INFO  2019-03-18 11:20:19,927 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 24.1673ms.
+INFO  2019-03-18 11:20:19,927 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-18 11:20:19,928 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 25.8383ms
+INFO  2019-03-18 11:20:19,928 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.9874ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-18 11:20:19,957 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-03-18 11:20:19,962 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.3824ms 200 application/json
+INFO  2019-03-18 11:20:19,969 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=lWHiLZE1f2d7n4UrlbkUQA  
+INFO  2019-03-18 11:20:19,986 [11   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-03-18 11:20:19,990 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"lWHiLZE1f2d7n4UrlbkUQA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-03-18T11:20:19.9872355+08:00","Properties":{}}
+DEBUG 2019-03-18 11:20:19,991 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: lWHiLZE1f2d7n4UrlbkUQA
+INFO  2019-03-18 11:20:20,766 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Tenants  
+INFO  2019-03-18 11:20:20,769 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Tenants", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.TenantsController.Index (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 11:20:20,770 [13   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-03-18 11:20:20,772 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.TenantsController.Index (Tolo.MyAbp.Web.Mvc) - Validation state: Valid
+INFO  2019-03-18 11:20:20,778 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.TenantsController.Index (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.9555ms.
+INFO  2019-03-18 11:20:20,782 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-18 11:20:20,803 [17   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 21.2548ms.
+INFO  2019-03-18 11:20:20,803 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.TenantsController.Index (Tolo.MyAbp.Web.Mvc) in 33.8022ms
+INFO  2019-03-18 11:20:20,804 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.834ms 200 text/html; charset=utf-8
+DEBUG 2019-03-18 11:20:20,809 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: lWHiLZE1f2d7n4UrlbkUQA
+INFO  2019-03-18 11:20:20,810 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 840.9493ms 101 
+INFO  2019-03-18 11:20:20,831 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636885048043141886  
+INFO  2019-03-18 11:20:20,831 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636885048043141886  
+INFO  2019-03-18 11:20:20,835 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-18 11:20:20,836 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-18 11:20:20,836 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-18 11:20:20,837 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-18 11:20:20,840 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 3.4063ms.
+INFO  2019-03-18 11:20:20,840 [19   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-18 11:20:20,840 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4.6886ms
+INFO  2019-03-18 11:20:20,840 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.9962ms 200 application/x-javascript
+INFO  2019-03-18 11:20:20,860 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 22.7075ms.
+INFO  2019-03-18 11:20:20,860 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-18 11:20:20,861 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 24.2421ms
+INFO  2019-03-18 11:20:20,861 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.6629ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-18 11:20:20,890 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-03-18 11:20:20,895 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.6217ms 200 application/json
+INFO  2019-03-18 11:20:20,913 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=i8cF8jjGDqFVXUfQPRtHbQ  
+INFO  2019-03-18 11:20:20,922 [19   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-03-18 11:20:20,927 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"i8cF8jjGDqFVXUfQPRtHbQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-03-18T11:20:20.9230237+08:00","Properties":{}}
+DEBUG 2019-03-18 11:20:20,928 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: i8cF8jjGDqFVXUfQPRtHbQ
+DEBUG 2019-03-18 11:20:25,332 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: i8cF8jjGDqFVXUfQPRtHbQ
+INFO  2019-03-18 11:20:25,333 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4419.9799ms 101 
+INFO  2019-03-18 11:20:31,817 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://127.0.0.1:44606/iisintegration  0
+INFO  2019-03-18 11:20:31,817 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.1821ms 202 
+DEBUG 2019-03-18 11:20:31,821 [6    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-03-18 11:20:31,822 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-18 11:20:31,823 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-18 11:20:31,823 [6    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-03-18 13:06:31,836 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-18 13:06:31,860 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2019-03-18 13:06:31,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.Web.Startup.MyAbpWebMvcModule, Tolo.MyAbp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpWebCoreModule, Tolo.MyAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpApplicationModule, Tolo.MyAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpCoreModule, Tolo.MyAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.EntityFrameworkCore.MyAbpEntityFrameworkModule, Tolo.MyAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:06:31,889 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2019-03-18 13:06:31,951 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 13:06:31,951 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 13:06:31,951 [1    ] o.Configuration.LanguageManagementConfig - Converted MyAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 13:06:31,951 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 13:06:32,398 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Tolo.MyAbp.EntityFrameworkCore.MyAbpDbContext, Tolo.MyAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+FATAL 2019-03-18 13:06:40,014 [1    ] Abp.AbpBootstrapper                      - Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not proxy Abp.Configuration.SettingManager ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate Abp.Runtime.Caching.Redis.AbpRedisCache ---> System.Exception: Could not instantiate Abp.Runtime.Caching.Redis.AbpRedisCache. ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). UnableToConnect on localhost:6379/Interactive, Initializing, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 1s ago, last-write: 1s ago, unanswered-write: 8819s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 6s ago, v: 2.0.519.65453
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Object configuration, TextWriter log) in C:\projects\stackexchange-redis\src\StackExchange.Redis\ConnectionMultiplexer.cs:line 935
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Abp.Runtime.Caching.Redis.AbpRedisCacheDatabaseProvider.GetDatabase() in D:\Github\aspnetboilerplate\src\Abp.RedisCache\Runtime\Caching\Redis\AbpRedisCacheDatabaseProvider.cs:line 29
+   at Abp.Runtime.Caching.Redis.AbpRedisCache..ctor(String name, IAbpRedisCacheDatabaseProvider redisCacheDatabaseProvider, IRedisCacheSerializer redisCacheSerializer) in D:\Github\aspnetboilerplate\src\Abp.RedisCache\Runtime\Caching\Redis\AbpRedisCache.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at Castle.Core.Internal.ReflectionUtil.Instantiate[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   --- End of inner exception stack trace ---
+   at Castle.Core.Internal.ReflectionUtil.Instantiate[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve[T](Object argumentsAsAnonymousType)
+   at Abp.Runtime.Caching.CacheManagerBase.<GetCache>b__5_0(String cacheName) in D:\Github\aspnetboilerplate\src\Abp\Runtime\Caching\CacheManagerBase.cs:line 44
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.Configuration.SettingManager..ctor(ISettingDefinitionManager settingDefinitionManager, ICacheManager cacheManager, IMultiTenancyConfig multiTenancyConfig, ITenantStore tenantStore) in D:\Github\aspnetboilerplate\src\Abp\Configuration\SettingManager.cs:line 53
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at Castle.DynamicProxy.ProxyGenerator.CreateClassProxyInstance(Type proxyType, List`1 proxyArguments, Type classToProxy, Object[] constructorArguments)
+   at Castle.Windsor.Proxy.DefaultProxyFactory.Create(IKernel kernel, Object target, ComponentModel model, CreationContext context, Object[] constructorArguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve[T]()
+   at Abp.AbpKernelModule.PostInitialize() in D:\Github\aspnetboilerplate\src\Abp\AbpKernelModule.cs:line 83
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not proxy Abp.Configuration.SettingManager ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate Abp.Runtime.Caching.Redis.AbpRedisCache ---> System.Exception: Could not instantiate Abp.Runtime.Caching.Redis.AbpRedisCache. ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). UnableToConnect on localhost:6379/Interactive, Initializing, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 1s ago, last-write: 1s ago, unanswered-write: 8819s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 6s ago, v: 2.0.519.65453
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Object configuration, TextWriter log) in C:\projects\stackexchange-redis\src\StackExchange.Redis\ConnectionMultiplexer.cs:line 935
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Abp.Runtime.Caching.Redis.AbpRedisCacheDatabaseProvider.GetDatabase() in D:\Github\aspnetboilerplate\src\Abp.RedisCache\Runtime\Caching\Redis\AbpRedisCacheDatabaseProvider.cs:line 29
+   at Abp.Runtime.Caching.Redis.AbpRedisCache..ctor(String name, IAbpRedisCacheDatabaseProvider redisCacheDatabaseProvider, IRedisCacheSerializer redisCacheSerializer) in D:\Github\aspnetboilerplate\src\Abp.RedisCache\Runtime\Caching\Redis\AbpRedisCache.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at Castle.Core.Internal.ReflectionUtil.Instantiate[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   --- End of inner exception stack trace ---
+   at Castle.Core.Internal.ReflectionUtil.Instantiate[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve[T](Object argumentsAsAnonymousType)
+   at Abp.Runtime.Caching.CacheManagerBase.<GetCache>b__5_0(String cacheName) in D:\Github\aspnetboilerplate\src\Abp\Runtime\Caching\CacheManagerBase.cs:line 44
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.Configuration.SettingManager..ctor(ISettingDefinitionManager settingDefinitionManager, ICacheManager cacheManager, IMultiTenancyConfig multiTenancyConfig, ITenantStore tenantStore) in D:\Github\aspnetboilerplate\src\Abp\Configuration\SettingManager.cs:line 53
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at Castle.DynamicProxy.ProxyGenerator.CreateClassProxyInstance(Type proxyType, List`1 proxyArguments, Type classToProxy, Object[] constructorArguments)
+   at Castle.Windsor.Proxy.DefaultProxyFactory.Create(IKernel kernel, Object target, ComponentModel model, CreationContext context, Object[] constructorArguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve[T]()
+   at Abp.AbpKernelModule.PostInitialize() in D:\Github\aspnetboilerplate\src\Abp\AbpKernelModule.cs:line 83
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+FATAL 2019-03-18 13:06:40,037 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not proxy Abp.Configuration.SettingManager ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate Abp.Runtime.Caching.Redis.AbpRedisCache ---> System.Exception: Could not instantiate Abp.Runtime.Caching.Redis.AbpRedisCache. ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). UnableToConnect on localhost:6379/Interactive, Initializing, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 1s ago, last-write: 1s ago, unanswered-write: 8819s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 6s ago, v: 2.0.519.65453
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Object configuration, TextWriter log) in C:\projects\stackexchange-redis\src\StackExchange.Redis\ConnectionMultiplexer.cs:line 935
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Abp.Runtime.Caching.Redis.AbpRedisCacheDatabaseProvider.GetDatabase() in D:\Github\aspnetboilerplate\src\Abp.RedisCache\Runtime\Caching\Redis\AbpRedisCacheDatabaseProvider.cs:line 29
+   at Abp.Runtime.Caching.Redis.AbpRedisCache..ctor(String name, IAbpRedisCacheDatabaseProvider redisCacheDatabaseProvider, IRedisCacheSerializer redisCacheSerializer) in D:\Github\aspnetboilerplate\src\Abp.RedisCache\Runtime\Caching\Redis\AbpRedisCache.cs:line 29
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at Castle.Core.Internal.ReflectionUtil.Instantiate[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   --- End of inner exception stack trace ---
+   at Castle.Core.Internal.ReflectionUtil.Instantiate[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve[T](Object argumentsAsAnonymousType)
+   at Abp.Runtime.Caching.CacheManagerBase.<GetCache>b__5_0(String cacheName) in D:\Github\aspnetboilerplate\src\Abp\Runtime\Caching\CacheManagerBase.cs:line 44
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.Configuration.SettingManager..ctor(ISettingDefinitionManager settingDefinitionManager, ICacheManager cacheManager, IMultiTenancyConfig multiTenancyConfig, ITenantStore tenantStore) in D:\Github\aspnetboilerplate\src\Abp\Configuration\SettingManager.cs:line 53
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at Castle.DynamicProxy.ProxyGenerator.CreateClassProxyInstance(Type proxyType, List`1 proxyArguments, Type classToProxy, Object[] constructorArguments)
+   at Castle.Windsor.Proxy.DefaultProxyFactory.Create(IKernel kernel, Object target, ComponentModel model, CreationContext context, Object[] constructorArguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve[T]()
+   at Abp.AbpKernelModule.PostInitialize() in D:\Github\aspnetboilerplate\src\Abp\AbpKernelModule.cs:line 83
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at Tolo.MyAbp.Web.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\Startup\Startup.cs:line 60
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+INFO  2019-03-18 13:06:40,366 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-18 13:06:40,487 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 122.6704ms 500 text/html; charset=utf-8
+DEBUG 2019-03-18 13:08:45,720 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-18 13:08:45,738 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2019-03-18 13:08:45,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.Web.Startup.MyAbpWebMvcModule, Tolo.MyAbp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpWebCoreModule, Tolo.MyAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpApplicationModule, Tolo.MyAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpCoreModule, Tolo.MyAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.EntityFrameworkCore.MyAbpEntityFrameworkModule, Tolo.MyAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:45,764 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2019-03-18 13:08:45,813 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 13:08:45,813 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 13:08:45,813 [1    ] o.Configuration.LanguageManagementConfig - Converted MyAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 13:08:45,813 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 13:08:46,048 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Tolo.MyAbp.EntityFrameworkCore.MyAbpDbContext, Tolo.MyAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:08:46,409 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-18 13:08:46,466 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-18 13:08:46,507 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-18 13:08:46,524 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyAbp
+DEBUG 2019-03-18 13:08:46,548 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-18 13:08:46,580 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-18 13:08:46,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2019-03-18 13:08:46,616 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-18 13:08:46,622 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-18 13:08:46,622 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Users.Dto.UserDto
+DEBUG 2019-03-18 13:08:46,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-18 13:08:46,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-18 13:08:46,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-18 13:08:46,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-18 13:08:46,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-18 13:08:46,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-18 13:08:46,624 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.MultiTenancy.Dto.TenantDto
+DEBUG 2019-03-18 13:08:46,624 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-03-18 13:08:46,624 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-03-18 13:08:49,812 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+DEBUG 2019-03-18 13:08:49,930 [12   ] IdentityServer4.Startup                  - Login Url: /Account/Login
+DEBUG 2019-03-18 13:08:49,930 [12   ] IdentityServer4.Startup                  - Login Return Url Parameter: ReturnUrl
+DEBUG 2019-03-18 13:08:49,930 [12   ] IdentityServer4.Startup                  - Logout Url: /Account/Logout
+DEBUG 2019-03-18 13:08:49,930 [12   ] IdentityServer4.Startup                  - ConsentUrl Url: /consent
+DEBUG 2019-03-18 13:08:49,930 [12   ] IdentityServer4.Startup                  - Consent Return Url Parameter: returnUrl
+DEBUG 2019-03-18 13:08:49,930 [12   ] IdentityServer4.Startup                  - Error Url: /home/error
+DEBUG 2019-03-18 13:08:49,930 [12   ] IdentityServer4.Startup                  - Error Id Parameter: errorId
+INFO  2019-03-18 13:08:50,891 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed out.
+INFO  2019-03-18 13:08:50,892 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.External signed out.
+INFO  2019-03-18 13:08:50,893 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.TwoFactorUserId signed out.
+INFO  2019-03-18 13:08:50,897 [12   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: No principal.
+INFO  2019-03-18 13:08:51,263 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc)
+WARN  2019-03-18 13:08:51,431 [12   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2019-03-18 13:08:51,437 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2019-03-18 13:08:51,446 [12   ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2019-03-18 13:08:51,462 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2019-03-18 13:08:51,465 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc) in 181.3754ms
+INFO  2019-03-18 13:08:51,515 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1707.0354ms 302 
+INFO  2019-03-18 13:08:51,516 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2019-03-18 13:08:51,552 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 13:08:52,757 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2019-03-18 13:08:52,765 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.9711ms.
+INFO  2019-03-18 13:08:53,031 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-03-18 13:08:53,468 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 477.6194ms.
+INFO  2019-03-18 13:08:53,473 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc) in 1920.7931ms
+INFO  2019-03-18 13:08:53,490 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1973.8608ms 200 text/html; charset=utf-8
+INFO  2019-03-18 13:08:53,510 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636885113265819428  
+INFO  2019-03-18 13:08:53,529 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-18 13:08:53,536 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636885113334519120  
+INFO  2019-03-18 13:08:53,537 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636885113265819428  
+INFO  2019-03-18 13:08:53,548 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-18 13:08:53,559 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-18 13:08:53,562 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-18 13:08:53,571 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-03-18 13:08:53,572 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.1893ms 200 application/javascript
+INFO  2019-03-18 13:08:53,669 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 109.9047ms.
+INFO  2019-03-18 13:08:53,674 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-18 13:08:53,675 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 146.3073ms
+INFO  2019-03-18 13:08:53,676 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 165.7163ms 200 application/x-javascript
+INFO  2019-03-18 13:08:53,682 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 120.4745ms.
+INFO  2019-03-18 13:08:53,683 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-18 13:08:53,685 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 136.7232ms
+INFO  2019-03-18 13:08:53,685 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 148.3654ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-18 13:08:53,705 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2019-03-18 13:08:53,706 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\favicon.ico'
+INFO  2019-03-18 13:08:53,706 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0719ms 200 image/x-icon
+INFO  2019-03-18 13:08:55,477 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2019-03-18 13:08:55,485 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 13:08:55,557 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc) with arguments (Tolo.MyAbp.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+DEBUG 2019-03-18 13:08:56,056 [12   ] ting.IdentityServerAuthenticationService - Augmenting SignInContext
+DEBUG 2019-03-18 13:08:56,058 [12   ] ting.IdentityServerAuthenticationService - Adding idp claim with value: local
+DEBUG 2019-03-18 13:08:56,058 [12   ] ting.IdentityServerAuthenticationService - Adding amr claim with value: pwd
+DEBUG 2019-03-18 13:08:56,058 [12   ] ting.IdentityServerAuthenticationService - Adding auth_time claim with value: 1552885736
+INFO  2019-03-18 13:08:56,084 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-03-18 13:08:56,087 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult in 530.4194ms.
+INFO  2019-03-18 13:08:56,099 [12   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-03-18 13:08:56,106 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc) in 621.6179ms
+INFO  2019-03-18 13:08:56,107 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 629.5627ms 200 application/json; charset=utf-8
+INFO  2019-03-18 13:08:56,116 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-18 13:08:56,121 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 13:08:56,153 [9    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-03-18 13:08:56,156 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc) - Validation state: Valid
+INFO  2019-03-18 13:08:56,156 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.387ms.
+INFO  2019-03-18 13:08:56,164 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-18 13:08:56,549 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 386.2519ms.
+INFO  2019-03-18 13:08:56,552 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc) in 430.7686ms
+INFO  2019-03-18 13:08:56,553 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 436.6612ms 200 text/html; charset=utf-8
+INFO  2019-03-18 13:08:56,578 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636885113265819428  
+INFO  2019-03-18 13:08:56,578 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636885113265819428  
+INFO  2019-03-18 13:08:56,584 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-18 13:08:56,584 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-18 13:08:56,585 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-18 13:08:56,586 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-18 13:08:56,590 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 4.5688ms.
+INFO  2019-03-18 13:08:56,590 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-18 13:08:56,590 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 6.2204ms
+INFO  2019-03-18 13:08:56,590 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.7692ms 200 application/x-javascript
+INFO  2019-03-18 13:08:56,614 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 28.2852ms.
+INFO  2019-03-18 13:08:56,614 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-18 13:08:56,614 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 29.8974ms
+INFO  2019-03-18 13:08:56,614 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.9417ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-18 13:08:56,661 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-03-18 13:08:56,701 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.2711ms 200 application/json
+INFO  2019-03-18 13:08:56,707 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=fvv3bXSABg40V-KrLKzt-Q  
+INFO  2019-03-18 13:08:56,878 [7    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-03-18 13:08:56,905 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"fvv3bXSABg40V-KrLKzt-Q","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-03-18T13:08:56.8986004+08:00","Properties":{}}
+DEBUG 2019-03-18 13:08:56,947 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: fvv3bXSABg40V-KrLKzt-Q
+INFO  2019-03-18 13:50:03,862 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-18 13:50:03,946 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 13:50:03,947 [22   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-03-18 13:50:03,948 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc) - Validation state: Valid
+INFO  2019-03-18 13:50:03,948 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.014ms.
+INFO  2019-03-18 13:50:03,955 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-18 13:50:03,980 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 27.4962ms.
+INFO  2019-03-18 13:50:03,980 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc) in 33.0764ms
+INFO  2019-03-18 13:50:03,980 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.1342ms 200 text/html; charset=utf-8
+INFO  2019-03-18 13:50:03,999 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636885113265819428  
+INFO  2019-03-18 13:50:03,999 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636885113265819428  
+INFO  2019-03-18 13:50:04,005 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-18 13:50:04,005 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-18 13:50:04,006 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-18 13:50:04,006 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-18 13:50:04,013 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 6.5208ms.
+INFO  2019-03-18 13:50:04,013 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-18 13:50:04,013 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 7.8078ms
+INFO  2019-03-18 13:50:04,014 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.6163ms 200 application/x-javascript
+DEBUG 2019-03-18 13:50:04,020 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: fvv3bXSABg40V-KrLKzt-Q
+INFO  2019-03-18 13:50:04,030 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2467322.7651ms 101 
+INFO  2019-03-18 13:50:04,036 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 29.4385ms.
+INFO  2019-03-18 13:50:04,036 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-18 13:50:04,036 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 31.2368ms
+INFO  2019-03-18 13:50:04,036 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.8421ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-18 13:50:04,081 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-03-18 13:50:04,084 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.6359ms 200 application/json
+INFO  2019-03-18 13:50:04,098 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=xWtwu5-mvpSDVlul5UY9IA  
+INFO  2019-03-18 13:50:04,164 [10   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-03-18 13:50:04,169 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"xWtwu5-mvpSDVlul5UY9IA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-03-18T13:50:04.1645044+08:00","Properties":{}}
+DEBUG 2019-03-18 13:50:04,169 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: xWtwu5-mvpSDVlul5UY9IA
+INFO  2019-03-18 13:50:04,181 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2019-03-18 13:50:04,182 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\favicon.ico'
+INFO  2019-03-18 13:50:04,182 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.6577ms 200 image/x-icon
+DEBUG 2019-03-18 13:51:50,028 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-18 13:51:50,047 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2019-03-18 13:51:50,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.Web.Startup.MyAbpWebMvcModule, Tolo.MyAbp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpWebCoreModule, Tolo.MyAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpApplicationModule, Tolo.MyAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpCoreModule, Tolo.MyAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.EntityFrameworkCore.MyAbpEntityFrameworkModule, Tolo.MyAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,074 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2019-03-18 13:51:50,129 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 13:51:50,129 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 13:51:50,129 [1    ] o.Configuration.LanguageManagementConfig - Converted MyAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 13:51:50,129 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 13:51:50,370 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Tolo.MyAbp.EntityFrameworkCore.MyAbpDbContext, Tolo.MyAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 13:51:50,775 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-18 13:51:50,833 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-18 13:51:50,870 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-18 13:51:50,888 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyAbp
+DEBUG 2019-03-18 13:51:50,913 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-18 13:51:50,945 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-18 13:51:50,981 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2019-03-18 13:51:50,981 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-18 13:51:50,988 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-18 13:51:50,988 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Users.Dto.UserDto
+DEBUG 2019-03-18 13:51:50,988 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-18 13:51:50,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-18 13:51:50,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-18 13:51:50,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-18 13:51:50,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-18 13:51:50,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-18 13:51:50,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.MultiTenancy.Dto.TenantDto
+DEBUG 2019-03-18 13:51:50,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-03-18 13:51:50,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-03-18 13:51:54,178 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+DEBUG 2019-03-18 13:51:54,305 [10   ] IdentityServer4.Startup                  - Login Url: /Account/Login
+DEBUG 2019-03-18 13:51:54,305 [10   ] IdentityServer4.Startup                  - Login Return Url Parameter: ReturnUrl
+DEBUG 2019-03-18 13:51:54,305 [10   ] IdentityServer4.Startup                  - Logout Url: /Account/Logout
+DEBUG 2019-03-18 13:51:54,305 [10   ] IdentityServer4.Startup                  - ConsentUrl Url: /consent
+DEBUG 2019-03-18 13:51:54,305 [10   ] IdentityServer4.Startup                  - Consent Return Url Parameter: returnUrl
+DEBUG 2019-03-18 13:51:54,305 [10   ] IdentityServer4.Startup                  - Error Url: /home/error
+DEBUG 2019-03-18 13:51:54,305 [10   ] IdentityServer4.Startup                  - Error Id Parameter: errorId
+INFO  2019-03-18 13:51:55,338 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1166.5633ms 200 application/json
+INFO  2019-03-18 13:51:55,339 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=LrDmRh4kHY5Q08DZg2XMFA  
+INFO  2019-03-18 13:51:55,502 [11   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-03-18 13:51:55,549 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"LrDmRh4kHY5Q08DZg2XMFA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-03-18T13:51:55.5206202+08:00","Properties":{}}
+INFO  2019-03-18 13:52:28,003 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://127.0.0.1:47116/iisintegration  0
+INFO  2019-03-18 13:52:28,015 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.7277ms 202 
+DEBUG 2019-03-18 14:07:36,846 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-18 14:07:36,865 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2019-03-18 14:07:36,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.Web.Startup.MyAbpWebMvcModule, Tolo.MyAbp.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpWebCoreModule, Tolo.MyAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpApplicationModule, Tolo.MyAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.MyAbpCoreModule, Tolo.MyAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Tolo.MyAbp.EntityFrameworkCore.MyAbpEntityFrameworkModule, Tolo.MyAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:36,891 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2019-03-18 14:07:36,940 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 14:07:36,940 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 14:07:36,940 [1    ] o.Configuration.LanguageManagementConfig - Converted MyAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 14:07:36,940 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-18 14:07:37,188 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Tolo.MyAbp.EntityFrameworkCore.MyAbpDbContext, Tolo.MyAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-18 14:07:37,550 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-18 14:07:37,609 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-18 14:07:37,647 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-18 14:07:37,681 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyAbp
+DEBUG 2019-03-18 14:07:37,705 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-18 14:07:37,739 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-18 14:07:37,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2019-03-18 14:07:37,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-18 14:07:37,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-18 14:07:37,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Users.Dto.UserDto
+DEBUG 2019-03-18 14:07:37,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-18 14:07:37,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-18 14:07:37,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-18 14:07:37,788 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-18 14:07:37,788 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-18 14:07:37,788 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-18 14:07:37,788 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.MultiTenancy.Dto.TenantDto
+DEBUG 2019-03-18 14:07:37,788 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-03-18 14:07:37,788 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Tolo.MyAbp.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-03-18 14:07:40,429 [1    ] IdentityServer4.Startup                  - Starting IdentityServer4 version 2.3.2.0
+INFO  2019-03-18 14:07:40,484 [1    ] IdentityServer4.Startup                  - Using the default authentication scheme Identity.Application for IdentityServer
+DEBUG 2019-03-18 14:07:40,485 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default ASP.NET Core scheme for authentication
+DEBUG 2019-03-18 14:07:40,485 [1    ] IdentityServer4.Startup                  - Using Identity.External as default ASP.NET Core scheme for sign-in
+DEBUG 2019-03-18 14:07:40,485 [1    ] IdentityServer4.Startup                  - Using Identity.External as default ASP.NET Core scheme for sign-out
+DEBUG 2019-03-18 14:07:40,486 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default ASP.NET Core scheme for challenge
+DEBUG 2019-03-18 14:07:40,486 [1    ] IdentityServer4.Startup                  - Using Identity.Application as default ASP.NET Core scheme for forbid
+INFO  2019-03-18 14:07:41,375 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+DEBUG 2019-03-18 14:07:41,484 [9    ] IdentityServer4.Startup                  - Login Url: /Account/Login
+DEBUG 2019-03-18 14:07:41,484 [9    ] IdentityServer4.Startup                  - Login Return Url Parameter: ReturnUrl
+DEBUG 2019-03-18 14:07:41,484 [9    ] IdentityServer4.Startup                  - Logout Url: /Account/Logout
+DEBUG 2019-03-18 14:07:41,484 [9    ] IdentityServer4.Startup                  - ConsentUrl Url: /consent
+DEBUG 2019-03-18 14:07:41,484 [9    ] IdentityServer4.Startup                  - Consent Return Url Parameter: returnUrl
+DEBUG 2019-03-18 14:07:41,484 [9    ] IdentityServer4.Startup                  - Error Url: /home/error
+DEBUG 2019-03-18 14:07:41,485 [9    ] IdentityServer4.Startup                  - Error Id Parameter: errorId
+INFO  2019-03-18 14:07:41,505 [9    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:07:41,508 [9    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:07:41,520 [9    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:07:41,639 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc)'
+INFO  2019-03-18 14:07:42,626 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc)
+WARN  2019-03-18 14:07:42,795 [9    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2019-03-18 14:07:42,801 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2019-03-18 14:07:42,812 [9    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2019-03-18 14:07:42,834 [9    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2019-03-18 14:07:42,837 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc) in 207.3605ms
+INFO  2019-03-18 14:07:42,838 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc)'
+INFO  2019-03-18 14:07:42,892 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1518.8833ms 302 
+INFO  2019-03-18 14:07:42,893 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2019-03-18 14:07:42,902 [9    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:07:42,902 [9    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:07:42,903 [9    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:07:42,910 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc)'
+INFO  2019-03-18 14:07:42,934 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 14:07:44,337 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2019-03-18 14:07:44,345 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.4762ms.
+INFO  2019-03-18 14:07:44,573 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-03-18 14:07:45,067 [14   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 537.7326ms.
+INFO  2019-03-18 14:07:45,071 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc) in 2136.4294ms
+INFO  2019-03-18 14:07:45,072 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc)'
+INFO  2019-03-18 14:07:45,090 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2197.37ms 200 text/html; charset=utf-8
+INFO  2019-03-18 14:07:45,150 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636885148577410818  
+INFO  2019-03-18 14:07:45,151 [14   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:07:45,152 [14   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:07:45,152 [14   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:07:45,155 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-03-18 14:07:45,167 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-18 14:07:45,177 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636885148577410818  
+INFO  2019-03-18 14:07:45,177 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=636885148650455949  
+INFO  2019-03-18 14:07:45,178 [12   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:07:45,178 [12   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:07:45,178 [12   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:07:45,178 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-03-18 14:07:45,186 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-18 14:07:45,187 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-18 14:07:45,192 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-18 14:07:45,208 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\SourceCode\LocalHost\ABP\4.6.0\aspnet-core\src\Tolo.MyAbp.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-03-18 14:07:45,209 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.3524ms 200 application/javascript
+INFO  2019-03-18 14:07:45,272 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 85.5608ms.
+INFO  2019-03-18 14:07:45,276 [14   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-18 14:07:45,278 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 110.4703ms
+INFO  2019-03-18 14:07:45,278 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-03-18 14:07:45,278 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 127.9807ms 200 application/x-javascript
+INFO  2019-03-18 14:07:45,284 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 92.4579ms.
+INFO  2019-03-18 14:07:45,285 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-18 14:07:45,287 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 100.0815ms
+INFO  2019-03-18 14:07:45,287 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-03-18 14:07:45,287 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 110.2094ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-18 14:08:02,406 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2019-03-18 14:08:02,407 [14   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:08:02,413 [14   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:08:02,413 [14   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:08:02,417 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc)'
+INFO  2019-03-18 14:08:02,426 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 14:08:02,510 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc) with arguments (Tolo.MyAbp.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+DEBUG 2019-03-18 14:08:03,007 [17   ] ting.IdentityServerAuthenticationService - Augmenting SignInContext
+DEBUG 2019-03-18 14:08:03,009 [17   ] ting.IdentityServerAuthenticationService - Adding idp claim with value: local
+DEBUG 2019-03-18 14:08:03,009 [17   ] ting.IdentityServerAuthenticationService - Adding amr claim with value: pwd
+DEBUG 2019-03-18 14:08:03,010 [17   ] ting.IdentityServerAuthenticationService - Adding auth_time claim with value: 1552889283
+INFO  2019-03-18 14:08:03,013 [17   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-03-18 14:08:03,036 [17   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-03-18 14:08:03,040 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult in 529.903ms.
+INFO  2019-03-18 14:08:03,050 [17   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-03-18 14:08:03,058 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc) in 631.5707ms
+INFO  2019-03-18 14:08:03,058 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Tolo.MyAbp.Web.Controllers.AccountController.Login (Tolo.MyAbp.Web.Mvc)'
+INFO  2019-03-18 14:08:03,059 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 653.2406ms 200 application/json; charset=utf-8
+INFO  2019-03-18 14:08:03,067 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-18 14:08:03,097 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc)'
+INFO  2019-03-18 14:08:03,098 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc)
+INFO  2019-03-18 14:08:03,125 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-03-18 14:08:03,128 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc) - Validation state: Valid
+INFO  2019-03-18 14:08:03,129 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3629ms.
+INFO  2019-03-18 14:08:03,136 [18   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-18 14:08:03,512 [17   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 378.9298ms.
+INFO  2019-03-18 14:08:03,517 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc) in 418.4951ms
+INFO  2019-03-18 14:08:03,517 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Tolo.MyAbp.Web.Controllers.HomeController.Index (Tolo.MyAbp.Web.Mvc)'
+INFO  2019-03-18 14:08:03,518 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 450.6872ms 200 text/html; charset=utf-8
+INFO  2019-03-18 14:08:03,551 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636885148577410818  
+INFO  2019-03-18 14:08:03,551 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636885148577410818  
+INFO  2019-03-18 14:08:03,557 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-03-18 14:08:03,558 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-03-18 14:08:03,559 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-18 14:08:03,559 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-18 14:08:03,560 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-18 14:08:03,561 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-18 14:08:03,566 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 4.9387ms.
+INFO  2019-03-18 14:08:03,566 [18   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-18 14:08:03,566 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 7.3832ms
+INFO  2019-03-18 14:08:03,566 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-03-18 14:08:03,567 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.2747ms 200 application/x-javascript
+INFO  2019-03-18 14:08:03,591 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 30.746ms.
+INFO  2019-03-18 14:08:03,591 [19   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-18 14:08:03,591 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 32.271ms
+INFO  2019-03-18 14:08:03,591 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-03-18 14:08:03,591 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.6723ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-18 14:08:03,661 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-03-18 14:08:03,702 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.9214ms 200 application/json
+INFO  2019-03-18 14:08:03,779 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=FlFToMrpubH7oU4Oulp4Sw  
+INFO  2019-03-18 14:08:03,919 [17   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-03-18 14:08:03,949 [17   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"FlFToMrpubH7oU4Oulp4Sw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-03-18T14:08:03.9421973+08:00","Properties":{}}
+DEBUG 2019-03-18 14:08:03,992 [17   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: FlFToMrpubH7oU4Oulp4Sw
+INFO  2019-03-18 14:08:12,963 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/.well-known/openid-configuration/  
+INFO  2019-03-18 14:08:12,968 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.0712ms 404 
+INFO  2019-03-18 14:08:13,049 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/.well-known/openid-configuration/  
+DEBUG 2019-03-18 14:08:13,054 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: FlFToMrpubH7oU4Oulp4Sw
+INFO  2019-03-18 14:08:13,057 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.2515ms 404 
+INFO  2019-03-18 14:08:13,069 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9290.012ms 101 
+INFO  2019-03-18 14:08:16,608 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/.well-known/openid-configuration  
+DEBUG 2019-03-18 14:08:16,613 [19   ] IdentityServer4.Hosting.EndpointRouter   - Request path /.well-known/openid-configuration matched to endpoint type Discovery
+DEBUG 2019-03-18 14:08:16,623 [19   ] IdentityServer4.Hosting.EndpointRouter   - Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+INFO  2019-03-18 14:08:16,623 [19   ] Server4.Hosting.IdentityServerMiddleware - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+DEBUG 2019-03-18 14:08:16,627 [19   ] ntityServer4.Endpoints.DiscoveryEndpoint - Start discovery request
+INFO  2019-03-18 14:08:16,676 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.308ms 200 application/json; charset=UTF-8

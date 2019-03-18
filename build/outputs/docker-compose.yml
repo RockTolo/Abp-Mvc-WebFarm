@@ -1,0 +1,33 @@
+version: '2'
+
+services:
+
+    tolo_redis:
+        image: redis
+        container_name: tolo_redis
+        ports:
+            - "6379:6379"
+
+    tolo_admin_1:
+        container_name: tolo_admin_1
+        image: tolo/admin        
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Staging
+        volumes:
+            - "./Mvc-Logs:/app/App_Data/Logs"
+
+    tolo_admin_2:
+        container_name: tolo_admin_2
+        image: tolo/admin        
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Staging
+        volumes:
+            - "./Mvc-Logs:/app/App_Data/Logs"
+            
+    load_balancer:
+        image: haproxy:1.7.1
+        container_name: tolo_haproxy
+        volumes:
+            - "./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg"
+        ports:
+            - "9904:8080"
